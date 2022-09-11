@@ -15,7 +15,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/ekunola-paul-42712b1aa/",
+      href: "https://www.linkedin.com/in/ekunola-paul-42712b1aa",
       style: "rounded-tr-md",
     },
     {
