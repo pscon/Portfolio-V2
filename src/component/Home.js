@@ -13,11 +13,9 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white">
-            Hi, my name is
+            Hi, my name is EKUNOLA PAUL
           </h2>
-          <h2 className="text-4xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white">
-            EKUNOLA PAUL
-          </h2>
+
           <h2 className="text-xl sm:text-4xl font-bold text-white">
             I am a
             <span className="text-red-600">
