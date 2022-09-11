@@ -38,9 +38,8 @@ const Home = () => {
           </h2>
 
           <p className="text-gray-400 py-4 maxw-md">
-            I have 1 year of experience building and designing Software.
-            Currently, I love to work on web application using technologies like
-            javascript, React, Tailwind, and Firebase
+            I'm a software engineer based in Lagos, Nigeria specializing in
+            building amazing products and applications.
           </p>
           <div className="flex items-center justify-center gap-10">
             <Link to="portfolio" smooth duration={500}>
