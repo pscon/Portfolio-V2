@@ -1,13 +1,7 @@
 import React from "react";
 
 import contactus from "../images/contact.png";
-import {
-  FaFacebook,
-  FaGithub,
-  FaTwitter,
-  FaLinkedin,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaGithub, FaTwitter, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -33,12 +27,17 @@ const Contact = () => {
               <a
                 href="https://www.linkedin.com/in/ekunola-paul-42712b1aa"
                 target="_blank"
+                rel="noreferrer"
               >
                 <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer">
                   <FaLinkedin size={25} />
                 </div>
               </a>
-              <a href="https://twitter.com/PSCON3" target="_blank">
+              <a
+                href="https://twitter.com/PSCON3"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer">
                   <FaTwitter size={25} />
                 </div>
@@ -46,12 +45,17 @@ const Contact = () => {
               <a
                 href="https://api.whatsapp.com/send?phone=08112699079"
                 target="_blank"
+                rel="noreferrer"
               >
                 <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer">
                   <FaWhatsapp size={25} />
                 </div>
               </a>
-              <a href="https://www.github.com/pscon" target="_blank">
+              <a
+                href="https://www.github.com/pscon"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer">
                   <FaGithub size={25} />
                 </div>

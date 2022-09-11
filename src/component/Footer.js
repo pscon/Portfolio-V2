@@ -11,6 +11,7 @@ const Footer = ({ theme }) => {
         <a
           href="https://www.linkedin.com/in/ekunola-paul-42712b1aa"
           target="_blank"
+          rel="noreferrer"
         >
           {" "}
           pscon

@@ -54,6 +54,7 @@ const Home = () => {
             <a
               href="https://www.canva.com/design/DAE15ID-Aao/JzZb4QR4UsIIhLpUzlbokw/view?utm_content=DAE15ID-Aao&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
               target="_blank"
+              rel="noreferrer"
             >
               <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
                 Resume

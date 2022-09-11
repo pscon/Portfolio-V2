@@ -5,7 +5,6 @@ import googleClone from "../images/googleClone.jpeg";
 import realestate from "../images/bami.jpeg";
 import dashboard from "../images/dashboard.jpeg";
 import foodPalace from "../images/foodpalace.jpeg";
-import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   const portfolios = [
