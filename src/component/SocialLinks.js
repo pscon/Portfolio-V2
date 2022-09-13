@@ -27,15 +27,15 @@ const SocialLinks = () => {
       ),
       href: "https://www.github.com/pscon",
     },
-    {
-      id: 3,
-      child: (
-        <>
-          Twitter <BsTwitter size={30} />
-        </>
-      ),
-      href: "https://twitter.com/PSCON3",
-    },
+    // {
+    //   id: 3,
+    //   child: (
+    //     <>
+    //       Twitter <BsTwitter size={30} />
+    //     </>
+    //   ),
+    //   href: "https://twitter.com/PSCON3",
+    // },
     {
       id: 4,
       child: (
