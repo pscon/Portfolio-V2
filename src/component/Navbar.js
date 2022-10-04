@@ -9,7 +9,7 @@ function Navbar() {
     { id: 2, link: "about" },
     { id: 4, link: "portfolio" },
     { id: 5, link: "skills" },
-    { id: 3, link: "blog" },
+    // { id: 3, link: "blog"},
     { id: 6, link: "contact" },
   ];
   return (
@@ -30,6 +30,12 @@ function Navbar() {
             </Link>
           </li>
         ))}
+        <a href="https://pscon.hashnode.dev/" target={"_blank"}>
+          <li className="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-105 duration-200">
+            {" "}
+            Blog{" "}
+          </li>
+        </a>
       </ul>
       <div
         onClick={() => setNav(!nav)}
@@ -56,6 +62,12 @@ function Navbar() {
               </Link>
             </li>
           ))}
+          <a href="https://pscon.hashnode.dev/" target={"_blank"}>
+            <li className="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-105 duration-200">
+              {" "}
+              Blog{" "}
+            </li>
+          </a>
         </ul>
       )}
     </div>

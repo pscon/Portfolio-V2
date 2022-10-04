@@ -13,12 +13,20 @@ const About = () => {
           </p>
         </div>
         <p className=" text-xl mt-20">
-          Hi, I am Ekunola Paul, a frontend engineer based in Lagos, Nigeria who
-          enjoys building products that leverage the internet. I am a highly
-          resourceful and focused software engineer with experience in building
-          web and mobile applications. I excel and I'm invested in every stage
-          of the life cycle of software development, including design
-          implementation, coding, debugging, testing, and maintenance.
+          Hi, I am Ekunola Paul, a Frontend Developer and{" "}
+          <a
+            href="https://pscon.hashnode.dev/"
+            target={"_blank"}
+            className="underline "
+          >
+            Technical Writter{" "}
+          </a>{" "}
+          based in Lagos, Nigeria who enjoys building products that leverage the
+          internet. I am a highly resourceful and focused software engineer with
+          experience in building web and mobile applications. I excel and I'm
+          invested in every stage of the life cycle of software development,
+          including design implementation, coding, debugging, testing, and
+          maintenance.
         </p>
 
         <br />
