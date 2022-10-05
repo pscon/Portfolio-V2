@@ -17,6 +17,7 @@ const About = () => {
           <a
             href="https://pscon.hashnode.dev/"
             target={"_blank"}
+            rel=" noreferrer"
             className="underline "
           >
             Technical Writter{" "}
