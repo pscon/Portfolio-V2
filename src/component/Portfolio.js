@@ -79,7 +79,10 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, about, projectName, url, github }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+            <div
+              key={id}
+              className="shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105"
+            >
               <img
                 src={src}
                 alt="projectImg"
@@ -88,10 +91,7 @@ const Portfolio = () => {
               <p className="text-xl py-2 font-bold px-4 inline border-b-4 border-gray-500">
                 {projectName}
               </p>
-              <p className="px-4 py-3 font-semibold duration-200 hover:scale-105">
-                {" "}
-                {about}
-              </p>
+              <p className="px-4 py-3 font-semibold "> {about}</p>
               <div className="flex items-center justify-center">
                 <a href={url} target="_blank" rel="noreferrer">
                   <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">

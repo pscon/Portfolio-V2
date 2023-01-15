@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import About from "./component/About";
+import Blog from "./component/Blog";
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
 import Home from "./component/Home";
@@ -36,6 +37,7 @@ function App() {
           <SocialLinks />
           <About />
           <Portfolio />
+          <Blog />
           <Skills />
           <Contact />
           <Footer />
