@@ -13,52 +13,52 @@ const Skills = () => {
   const techs = [
     {
       id: 1,
-      src: Html,
-      title: "HTML",
-      style: "shadow-orange-500",
-    },
-    {
-      id: 2,
-      src: Css,
-      title: "CSS",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 3,
       src: javascript,
       title: "Javascript",
       style: "shadow-yellow-500",
     },
     {
-      id: 4,
+      id: 2,
       src: ReactImg,
-      title: "React",
+      title: "React.js & React Native",
       style: "shadow-blue-600",
     },
     {
+      id: 3,
+      src: nextjs,
+      title: "Next Js",
+      style: "shadow-gray-300",
+    },
+    {
+      id: 4,
+      src: Html,
+      title: "HTML",
+      style: "shadow-orange-500",
+    },
+    {
       id: 5,
+      src: Css,
+      style: "shadow-blue-500",
+      title: "CSS",
+    },
+    {
+      id: 6,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
 
     {
-      id: 6,
+      id: 7,
       src: cloud,
       title: "Google Cloud",
       style: "shadow-yellow-500",
     },
     {
-      id: 7,
+      id: 8,
       src: firebase,
       title: "Firebase",
       style: "shadow-yellow-500",
-    },
-    {
-      id: 8,
-      src: nextjs,
-      title: "Next Js",
-      style: "shadow-gray-300",
     },
     {
       id: 9,

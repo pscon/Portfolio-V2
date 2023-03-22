@@ -4,21 +4,38 @@ import learning from "../images/learning.jpeg";
 import googleClone from "../images/googleClone.jpeg";
 import realestate from "../images/bami.jpeg";
 import dashboard from "../images/dashboard.jpeg";
-import foodPalace from "../images/foodpalace.jpeg";
+import scholarship from "../images/scholarship.PNG";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: googleClone,
-      about:
-        "A web Application similar to google, where you can search and surf the internet, view pictures, videos and news about your search topic...",
-      projectName: "Google Clone",
-      url: "https://fastidious-belekoy-d1d97f.netlify.app/search",
-      github: "https://github.com/pscon/Google-Clone",
+      src: scholarship,
+      about: [
+        "ScholarshipIQ is a web app that connects African students with admission and scholarship opportunities, making it a powerful and efficient tool for promoting equitable access to educational opportunities.",
+        <br />,
+        "Development with tools such as: React.js, PHP/Laravel backend and MySQL database.",
+      ],
+      projectName: "ScholarshipIQ",
+      url: "https://scholarship-iq.com",
+      github: "#",
     },
     {
       id: 2,
+      src: realestate,
+      about: [
+        "'Bami Consultant' is primarily designed to provide clients with a comprehensive understanding of the company's real estate services and its core values.",
+        <br />,
+        "Development with tools such as: HTML, CSS, Javascript.",
+      ],
+      projectName: "Bami Estate",
+      url: "https://bamiconsultant.netlify.app/",
+      github: "https://github.com/pscon/Bami-Real-Estate",
+    },
+
+    {
+      id: 3,
       src: dashboard,
       about:
         "The Dashboard is a visual display of all of your data. The dashboard include charts or graphs to visualize the numbers.",
@@ -27,7 +44,7 @@ const Portfolio = () => {
       github: "https://github.com/pscon/Admin-Dashboard",
     },
     {
-      id: 3,
+      id: 4,
       src: MovieImg,
       about:
         "A web Application similar to Netflix, where you can search for movies, view picture, year, and name of the movie.",
@@ -36,7 +53,7 @@ const Portfolio = () => {
       github: "https://github.com/pscon/Movie-App",
     },
     {
-      id: 4,
+      id: 5,
       src: learning,
       about:
         "Design Code is a web Application that allows users you to buy and watch tutorial videos on Frontend Development with tools such as: React.js, Styled Components, Firebase e.t.c",
@@ -45,22 +62,13 @@ const Portfolio = () => {
       github: "https://github.com/pscon/Gatsby-React-LearningApp",
     },
     {
-      id: 5,
-      src: foodPalace,
-      about:
-        "Food Palace is a Resturant Web application that shows the various food menu available for Order",
-      projectName: "Food Palace",
-      url: "https://food-palace-sh.netlify.app/",
-      github: "https://github.com/pscon/food-palace-resturant",
-    },
-    {
       id: 6,
-      src: realestate,
+      src: googleClone,
       about:
-        "The project ‘Bami consultant’ is a real estate related website made using HTML and CSS for clients to get to know about what the company is about and their services.",
-      projectName: "Bami Estate",
-      url: "https://bamiconsultant.netlify.app/",
-      github: "https://github.com/pscon/Bami-Real-Estate",
+        "A web Application similar to google, where you can search and surf the internet, view pictures, videos and news about your search topic...",
+      projectName: "Google Clone",
+      url: "https://fastidious-belekoy-d1d97f.netlify.app/search",
+      github: "https://github.com/pscon/Google-Clone",
     },
   ];
 
@@ -106,6 +114,13 @@ const Portfolio = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div className="flex items-center justify-center">
+          <Link to="/projects">
+            <button className="w-full shadow-md shadow-gray-200 rounded-lg px-6 py-3 m-6 duration-200 hover:scale-105  ">
+              View All Projects
+            </button>
+          </Link>
         </div>
       </div>
     </div>

@@ -40,12 +40,17 @@ const About = () => {
           including design implementation, coding, debugging, testing, and
           maintenance.
         </p>
+        <br />
+        <p className="text-xl">
+          Skilled in React.js, React-Native, Redux, Javascript. I am also a
+          strong team player with excellent communication skills and a passion
+          for learning new technologies.
+        </p>
 
         <br />
         <p className="text-xl">
-          When not working on a project or thinking about programming, I'm most
-          likely watching Movies on Netflix, playing video games, or spending
-          time with family and friends.
+          In my free time, I enjoy Netflix, video games, and spending time with
+          loved ones.
         </p>
       </div>
     </div>

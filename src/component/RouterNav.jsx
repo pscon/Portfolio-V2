@@ -1,25 +1,18 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
-function Navbar() {
+function RouterNav() {
   const [nav, setNav] = useState(false);
-  const links = [
-    { id: 1, link: "home" },
-    { id: 2, link: "about" },
-    { id: 4, link: "portfolio" },
-    { id: 5, link: "skills" },
-    { id: 3, link: "blog" },
-    { id: 6, link: "contact" },
-  ];
+  const links = [{ id: 1, link: "home" }];
   return (
-    <div className="flex justify-between items-center w-full h-20 text-white bg-black px-4 fixed ">
+    <div className="flex justify-between items-center w-full h-20 text-white bg-black px-4 ">
       <div>
         <Link to="/home">
           <h1 className="font-signature text-4xl ml-2 cursor-pointer">
             Ekunola Paul
           </h1>
-        </Link>{" "}
+        </Link>
       </div>
 
       <ul className="hidden md:flex">
@@ -28,18 +21,19 @@ function Navbar() {
             key={id}
             className="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-105 duration-200"
           >
-            <Link to={link} smooth duration={500}>
-              {" "}
-              {link}
-            </Link>
+            <Link to={"/" + link}> {link}</Link>
           </li>
         ))}
-        {/* <a href="https://pscon.hashnode.dev/" target={"_blank"}>
+        <a
+          href="https://pscon.hashnode.dev/"
+          target={"_blank"}
+          rel="noreferrer"
+        >
           <li className="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-105 duration-200">
             {" "}
             Blog{" "}
           </li>
-        </a> */}
+        </a>
       </ul>
       <div
         onClick={() => setNav(!nav)}
@@ -56,26 +50,25 @@ function Navbar() {
               // onClick={() => setNav(false)}
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
-              <Link
-                onClick={() => setNav(!nav)}
-                to={link}
-                smooth
-                duration={500}
-              >
+              <Link onClick={() => setNav(!nav)} to={"/" + link}>
                 {link}
               </Link>
             </li>
           ))}
-          {/* <a href="https://pscon.hashnode.dev/" target={"_blank"}>
-            <li className="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-105 duration-200">
+          <a
+            href="https://pscon.hashnode.dev/"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <li className="px-4 cursor-pointer capitalize py-6 text-4xl">
               {" "}
               Blog{" "}
             </li>
-          </a> */}
+          </a>
         </ul>
       )}
     </div>
   );
 }
 
-export default Navbar;
+export default RouterNav;

@@ -29,7 +29,8 @@ const Home = () => {
                 words={[
                   " Software Engineer",
                   " Frontend Developer.",
-                  " Software Developer.",
+                  " Technical Writer.",
+                  " Tech Enthusiast.",
                 ]}
               />
             </span>

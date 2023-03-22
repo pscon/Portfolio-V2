@@ -1,15 +1,10 @@
 import { useEffect, useState } from "react";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import About from "./component/About";
-import Blog from "./component/Blog";
-import Contact from "./component/Contact";
-import Footer from "./component/Footer";
-import Home from "./component/Home";
-import Navbar from "./component/Navbar";
-import Portfolio from "./component/Portfolio";
-import Skills from "./component/Skills";
-import SocialLinks from "./component/SocialLinks";
+
 import EPloader from "./images/ep.png";
+import AllProjects from "./pages/AllProjects";
+import HomePage from "./pages/HomePage";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -32,15 +27,10 @@ function App() {
         </div>
       ) : (
         <>
-          <Navbar />
-          <Home />
-          <SocialLinks />
-          <About />
-          <Portfolio />
-          <Blog />
-          <Skills />
-          <Contact />
-          <Footer />
+          <Routes>
+            <Route path="/home" element={<HomePage />} />
+            <Route path="/projects" element={<AllProjects />} />
+          </Routes>
         </>
       )}
     </div>
