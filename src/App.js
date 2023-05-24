@@ -25,7 +25,7 @@ function App() {
             <img src={EPloader} alt="Star" className="star" />
           </div>
         </div>
-      ) : (
+      ) : ( 
         <>
           <Routes>
             <Route path="/" element={<HomePage />} />

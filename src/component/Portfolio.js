@@ -1,9 +1,9 @@
 import React from "react";
 import MovieImg from "../images/movie.jpeg";
 import learning from "../images/learning.jpeg";
-import googleClone from "../images/googleClone.jpeg";
 import realestate from "../images/bami.jpeg";
 import dashboard from "../images/dashboard.jpeg";
+import evogym from "../images/evogym.png";
 import scholarship from "../images/scholarship.PNG";
 import { Link } from "react-router-dom";
 
@@ -23,6 +23,18 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      src: evogym,
+      about: [
+        "Evogym presents a state-of-the-art web application that delivers unrivaled training fitness classes. Experience the transformative power of our platform as you work towards achieving the body shape of your dreams. ",
+        <br />,
+        "Developed using the latest technologies such as: React.js, TypeScript, Tailwind CSS.",
+      ],
+      projectName: "Evo Gym",
+      url: "https://gymevo.netlify.app",
+      github: "https://github.com/pscon/gym-app-typescript",
+    },
+    {
+      id: 3,
       src: realestate,
       about: [
         "'Bami Consultant' is primarily designed to provide clients with a comprehensive understanding of the company's real estate services and its core values.",
@@ -35,7 +47,7 @@ const Portfolio = () => {
     },
 
     {
-      id: 3,
+      id: 4,
       src: dashboard,
       about:
         "The Dashboard is a visual display of all of your data. The dashboard include charts or graphs to visualize the numbers.",
@@ -44,7 +56,7 @@ const Portfolio = () => {
       github: "https://github.com/pscon/Admin-Dashboard",
     },
     {
-      id: 4,
+      id: 5,
       src: MovieImg,
       about:
         "A web Application similar to Netflix, where you can search for movies, view picture, year, and name of the movie.",
@@ -53,22 +65,13 @@ const Portfolio = () => {
       github: "https://github.com/pscon/Movie-App",
     },
     {
-      id: 5,
+      id: 6,
       src: learning,
       about:
         "Design Code is a web Application that allows users you to buy and watch tutorial videos on Frontend Development with tools such as: React.js, Styled Components, Firebase e.t.c",
       projectName: "Design Code ",
       url: "https://react-learning-application.netlify.app/",
       github: "https://github.com/pscon/Gatsby-React-LearningApp",
-    },
-    {
-      id: 6,
-      src: googleClone,
-      about:
-        "A web Application similar to google, where you can search and surf the internet, view pictures, videos and news about your search topic...",
-      projectName: "Google Clone",
-      url: "https://fastidious-belekoy-d1d97f.netlify.app/search",
-      github: "https://github.com/pscon/Google-Clone",
     },
   ];
 

@@ -4,6 +4,7 @@ import learning from "../images/learning.jpeg";
 import googleClone from "../images/googleClone.jpeg";
 import realestate from "../images/bami.jpeg";
 import dashboard from "../images/dashboard.jpeg";
+import evogym from "../images/evogym.png";
 import foodPalace from "../images/foodpalace.jpeg";
 import scholarship from "../images/scholarship.PNG";
 import countrr from "../images/countrr.PNG";
@@ -26,6 +27,18 @@ const AllProjects = () => {
     },
     {
       id: 2,
+      src: evogym,
+      about: [
+        "Evogym presents a state-of-the-art web application that delivers unrivaled training fitness classes. Experience the transformative power of our platform as you work towards achieving the body shape of your dreams. ",
+        <br />,
+        "Developed using the latest technologies such as: React.js, TypeScript, Tailwind CSS.",
+      ],
+      projectName: "Evo Gym",
+      url: "https://gymevo.netlify.app",
+      github: "https://github.com/pscon/gym-app-typescript",
+    },
+    {
+      id: 3,
       src: realestate,
       about: [
         "'Bami Consultant' is primarily designed to provide clients with a comprehensive understanding of the company's real estate services and its core values.",
@@ -37,7 +50,7 @@ const AllProjects = () => {
       github: "https://github.com/pscon/Bami-Real-Estate",
     },
     {
-      id: 7,
+      id: 4,
       src: countrr,
       about:
         "The 'Counter App' is a versatile application with a custom hook that includes increment, decrement, reset, and setValue functions. It uses the useReducer hook and offers an interactive UI, a page to test error boundary and SEO, and a 404 error page.",
@@ -47,7 +60,7 @@ const AllProjects = () => {
     },
 
     {
-      id: 4,
+      id: 5,
       src: MovieImg,
       about:
         "A web Application similar to Netflix, where you can search for movies, view picture, year, and name of the movie.",
@@ -56,7 +69,7 @@ const AllProjects = () => {
       github: "https://github.com/pscon/Movie-App",
     },
     {
-      id: 5,
+      id: 6,
       src: learning,
       about:
         "Design Code is a web Application that allows users you to buy and watch tutorial videos on Frontend Development with tools such as: React.js, Styled Components, Firebase e.t.c",
@@ -65,7 +78,7 @@ const AllProjects = () => {
       github: "https://github.com/pscon/Gatsby-React-LearningApp",
     },
     {
-      id: 6,
+      id: 7,
       src: foodPalace,
       about:
         "Food Palace is a Resturant Web application that shows the various food menu available for Order",
@@ -75,7 +88,7 @@ const AllProjects = () => {
     },
 
     {
-      id: 7,
+      id: 8,
       src: dashboard,
       about:
         "The Dashboard is a visual display of all of your data. The dashboard include charts or graphs to visualize the numbers.",
@@ -84,7 +97,7 @@ const AllProjects = () => {
       github: "https://github.com/pscon/Admin-Dashboard",
     },
     {
-      id: 8,
+      id: 9,
       src: googleClone,
       about:
         "A web Application similar to google, where you can search and surf the internet, view pictures, videos and news about your search topic...",
