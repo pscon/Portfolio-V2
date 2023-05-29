@@ -120,7 +120,7 @@ const Portfolio = () => {
         </div>
         <div className="flex items-center justify-center">
           <Link to="/projects">
-            <button className="w-full shadow-md shadow-gray-200 rounded-lg px-6 py-3 m-6 duration-200 hover:scale-105  ">
+            <button className="w-full shadow-md shadow-gray-400 rounded-lg px-6 py-3 m-6 duration-200 hover:scale-105  ">
               View All Projects
             </button>
           </Link>

@@ -12,7 +12,7 @@ const About = () => {
             About
           </p>
         </div>
-        <p className=" text-xl mt-20">
+        <p className=" text-xl mt-12">
           Hi, I am Ekunola Paul, a{" "}
           <span>
             <a

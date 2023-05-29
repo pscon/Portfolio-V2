@@ -39,7 +39,7 @@ const Blog = () => {
             <div
               key={id}
               className="shadow-md shadow-gray-600 rounded-lg relative duration-200 hover:scale-105"
-              style={{ height: "65vh" }}
+              style={{ height: "35vh" }}
             >
               <div>
                 <img
