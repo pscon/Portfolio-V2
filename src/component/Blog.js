@@ -7,15 +7,19 @@ const Blog = () => {
     {
       id: 1,
       src: deploy,
-      about: "Hosting React App On Firebase",
+      about: ["Hosting React App On Firebase", <br />, <br />, <br />],
       date: "Oct 4, 2022",
       url: "https://pscon.hashnode.dev/hosting-react-app-on-firebase",
     },
     {
       id: 2,
       src: useReducer,
-      about:
+      about: [
         "Implementing Counter App With useReducer: A Retrospective Technical Review.",
+        <br />,
+        <br />,
+        <br />,
+      ],
       date: "Jan 10, 2023      ",
       url: "https://pscon.hashnode.dev/implementing-counter-app-with-usereducer-a-retrospective-technical-review",
     },
@@ -39,7 +43,7 @@ const Blog = () => {
             <div
               key={id}
               className="shadow-md shadow-gray-600 rounded-lg relative duration-200 hover:scale-105"
-              style={{ height: "35vh" }}
+              // style={{ height: "35vh" }}
             >
               <div>
                 <img

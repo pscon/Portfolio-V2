@@ -1,9 +1,9 @@
 import React from "react";
 import MovieImg from "../images/movie.jpeg";
-import learning from "../images/learning.jpeg";
 import realestate from "../images/bami.jpeg";
 import dashboard from "../images/dashboard.jpeg";
 import evogym from "../images/evogym.png";
+import careF from "../images/careF.png";
 import scholarship from "../images/scholarship.PNG";
 import { Link } from "react-router-dom";
 
@@ -15,7 +15,7 @@ const Portfolio = () => {
       about: [
         "ScholarshipIQ is a web app that connects African students with admission and scholarship opportunities, making it a powerful and efficient tool for promoting equitable access to educational opportunities.",
         <br />,
-        "Development with tools such as: React.js, PHP/Laravel backend and MySQL database.",
+        "Developed with tools such as: React.js, PHP/Laravel backend and MySQL database.",
       ],
       projectName: "ScholarshipIQ",
       url: "https://scholarship-iq.com",
@@ -23,9 +23,21 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      src: careF,
+      about: [
+        "Seamlessly locate the closest hospital to your location and effortlessly schedule appointments. Uncover your ideal healthcare solution: Locate the perfect hospital that meets your needs, anytime and anywhere!",
+        <br />,
+        "Developed using the latest technologies such as: Next.js, TypeScript, Firebase and Tailwind CSS",
+      ],
+      projectName: "PSCON Care Finder",
+      url: "https://pscon-care-finder.vercel.app/",
+      github: "https://github.com/pscon/Pscon-CareFinder",
+    },
+    {
+      id: 3,
       src: evogym,
       about: [
-        "Evogym presents a state-of-the-art web application that delivers unrivaled training fitness classes. Experience the transformative power of our platform as you work towards achieving the body shape of your dreams. ",
+        "Evogym presents a state-of-the-art web application that delivers unrivaled training fitness classes. Experience the transformation power of our platform as you work towards achieving the body shape of your dreams. ",
         <br />,
         "Developed using the latest technologies such as: React.js, TypeScript, Tailwind CSS.",
       ],
@@ -34,7 +46,7 @@ const Portfolio = () => {
       github: "https://github.com/pscon/gym-app-typescript",
     },
     {
-      id: 3,
+      id: 4,
       src: realestate,
       about: [
         "'Bami Consultant' is primarily designed to provide clients with a comprehensive understanding of the company's real estate services and its core values.",
@@ -47,7 +59,7 @@ const Portfolio = () => {
     },
 
     {
-      id: 4,
+      id: 5,
       src: dashboard,
       about:
         "The Dashboard is a visual display of all of your data. The dashboard include charts or graphs to visualize the numbers.",
@@ -56,22 +68,13 @@ const Portfolio = () => {
       github: "https://github.com/pscon/Admin-Dashboard",
     },
     {
-      id: 5,
+      id: 6,
       src: MovieImg,
       about:
         "A web Application similar to Netflix, where you can search for movies, view picture, year, and name of the movie.",
       projectName: "Movie Land",
       url: "https://vermillion-fairy-01c967.netlify.app/",
       github: "https://github.com/pscon/Movie-App",
-    },
-    {
-      id: 6,
-      src: learning,
-      about:
-        "Design Code is a web Application that allows users you to buy and watch tutorial videos on Frontend Development with tools such as: React.js, Styled Components, Firebase e.t.c",
-      projectName: "Design Code ",
-      url: "https://react-learning-application.netlify.app/",
-      github: "https://github.com/pscon/Gatsby-React-LearningApp",
     },
   ];
 
