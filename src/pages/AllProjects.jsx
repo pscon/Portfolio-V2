@@ -11,6 +11,7 @@ import countrr from "../images/countrr.PNG";
 import careF from "../images/careF.png";
 import RouterNav from "../component/RouterNav";
 import Footer from "../component/Footer";
+import movix from "../images/movix.png";
 
 const AllProjects = () => {
   const portfolios = [
@@ -38,8 +39,21 @@ const AllProjects = () => {
       url: "https://pscon-care-finder.vercel.app/",
       github: "https://github.com/pscon/Pscon-CareFinder",
     },
+
     {
       id: 3,
+      src: movix,
+      about: [
+        "Pscon-Movix is a personalized movie and TV show recommendation web application that provides users with detailed information, thrilling trailers, and insightful reviews.  ",
+        <br />,
+        "Developed using the latest technologies such as: React.js, JavaScript, redux-toolkit and Tailwind CSS",
+      ],
+      projectName: "Pscon-Movix",
+      url: "https://pscon-movie-app.vercel.app/",
+      github: "https://github.com/pscon/Pscon-Movie-App",
+    },
+    {
+      id: 4,
       src: evogym,
       about: [
         "Evogym presents a state-of-the-art web application that delivers unrivaled training fitness classes. Experience the transformative power of our platform as you work towards achieving the body shape of your dreams. ",
@@ -51,7 +65,7 @@ const AllProjects = () => {
       github: "https://github.com/pscon/gym-app-typescript",
     },
     {
-      id: 4,
+      id: 5,
       src: realestate,
       about: [
         "'Bami Consultant' is primarily designed to provide clients with a comprehensive understanding of the company's real estate services and its core values.",
@@ -63,7 +77,7 @@ const AllProjects = () => {
       github: "https://github.com/pscon/Bami-Real-Estate",
     },
     {
-      id: 5,
+      id: 6,
       src: countrr,
       about:
         "The 'Counter App' is a versatile application with a custom hook that includes increment, decrement, reset, and setValue functions. It uses the useReducer hook and offers an interactive UI, a page to test error boundary and SEO, and a 404 error page.",
@@ -73,7 +87,7 @@ const AllProjects = () => {
     },
 
     {
-      id: 6,
+      id: 7,
       src: MovieImg,
       about:
         "A web Application similar to Netflix, where you can search for movies, view picture, year, and name of the movie.",
@@ -82,7 +96,7 @@ const AllProjects = () => {
       github: "https://github.com/pscon/Movie-App",
     },
     {
-      id: 7,
+      id: 8,
       src: learning,
       about:
         "Design Code is a web Application that allows users you to buy and watch tutorial videos on Frontend Development with tools such as: React.js, Styled Components, Firebase e.t.c",
@@ -91,7 +105,7 @@ const AllProjects = () => {
       github: "https://github.com/pscon/Gatsby-React-LearningApp",
     },
     {
-      id: 8,
+      id: 9,
       src: foodPalace,
       about:
         "Food Palace is a Resturant Web application that shows the various food menu available for Order",
@@ -101,7 +115,7 @@ const AllProjects = () => {
     },
 
     {
-      id: 9,
+      id: 10,
       src: dashboard,
       about:
         "The Dashboard is a visual display of all of your data. The dashboard include charts or graphs to visualize the numbers.",
@@ -110,7 +124,7 @@ const AllProjects = () => {
       github: "https://github.com/pscon/Admin-Dashboard",
     },
     {
-      id: 10,
+      id: 11,
       src: googleClone,
       about:
         "A web Application similar to google, where you can search and surf the internet, view pictures, videos and news about your search topic...",

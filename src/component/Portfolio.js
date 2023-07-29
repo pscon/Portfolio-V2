@@ -1,11 +1,11 @@
 import React from "react";
-import MovieImg from "../images/movie.jpeg";
 import realestate from "../images/bami.jpeg";
 import dashboard from "../images/dashboard.jpeg";
 import evogym from "../images/evogym.png";
 import careF from "../images/careF.png";
 import scholarship from "../images/scholarship.PNG";
 import { Link } from "react-router-dom";
+import movix from "../images/movix.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -29,12 +29,24 @@ const Portfolio = () => {
         <br />,
         "Developed using the latest technologies such as: Next.js, TypeScript, Firebase and Tailwind CSS",
       ],
-      projectName: "PSCON Care Finder",
+      projectName: "Pscon Care Finder",
       url: "https://pscon-care-finder.vercel.app/",
       github: "https://github.com/pscon/Pscon-CareFinder",
     },
     {
       id: 3,
+      src: movix,
+      about: [
+        "Pscon-Movix is a personalized movie and TV show recommendation web application that provides users with detailed information, thrilling trailers, and insightful reviews.  ",
+        <br />,
+        "Developed using the latest technologies such as: React.js, JavaScript, redux-toolkit and Tailwind CSS",
+      ],
+      projectName: "Pscon-Movix",
+      url: "https://pscon-movie-app.vercel.app/",
+      github: "https://github.com/pscon/Pscon-Movie-App",
+    },
+    {
+      id: 4,
       src: evogym,
       about: [
         "Evogym presents a state-of-the-art web application that delivers unrivaled training fitness classes. Experience the transformation power of our platform as you work towards achieving the body shape of your dreams. ",
@@ -46,7 +58,7 @@ const Portfolio = () => {
       github: "https://github.com/pscon/gym-app-typescript",
     },
     {
-      id: 4,
+      id: 5,
       src: realestate,
       about: [
         "'Bami Consultant' is primarily designed to provide clients with a comprehensive understanding of the company's real estate services and its core values.",
@@ -59,22 +71,13 @@ const Portfolio = () => {
     },
 
     {
-      id: 5,
+      id: 6,
       src: dashboard,
       about:
         "The Dashboard is a visual display of all of your data. The dashboard include charts or graphs to visualize the numbers.",
       projectName: "Dashboard",
       url: "https://cute-bonbon-7ba896.netlify.app/",
       github: "https://github.com/pscon/Admin-Dashboard",
-    },
-    {
-      id: 6,
-      src: MovieImg,
-      about:
-        "A web Application similar to Netflix, where you can search for movies, view picture, year, and name of the movie.",
-      projectName: "Movie Land",
-      url: "https://vermillion-fairy-01c967.netlify.app/",
-      github: "https://github.com/pscon/Movie-App",
     },
   ];
 
@@ -105,7 +108,7 @@ const Portfolio = () => {
               <p className="text-xl py-2 font-bold px-4 inline border-b-4 border-gray-500">
                 {projectName}
               </p>
-              <p className="px-4 py-3 font-semibold "> {about}</p>
+              <p className="text-[13px] px-4 py-3 font-semibold "> {about}</p>
               <div className="flex items-center justify-center">
                 <a href={url} target="_blank" rel="noreferrer">
                   <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">

@@ -8,7 +8,7 @@ function RouterNav() {
   return (
     <div className="flex justify-between items-center w-full h-20 text-white bg-black px-4 ">
       <div>
-        <Link to="/home">
+        <Link to="/">
           <h1 className="font-signature text-4xl ml-2 cursor-pointer">
             Ekunola Paul
           </h1>
