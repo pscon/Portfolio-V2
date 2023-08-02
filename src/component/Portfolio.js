@@ -69,7 +69,6 @@ const Portfolio = () => {
       url: "https://bamiconsultant.netlify.app/",
       github: "https://github.com/pscon/Bami-Real-Estate",
     },
-
     {
       id: 6,
       src: dashboard,
