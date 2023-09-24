@@ -14,18 +14,18 @@ function App() {
 
     setTimeout(() => {
       setLoading(false);
-    }, 900);
+    }, 2500);
   }, []);
 
   return (
     <div>
       {loading ? (
         <div className="App">
-          <div className="loader-demo">
+          <div className="loader-demo ">
             <img src={EPloader} alt="Star" className="star" />
           </div>
         </div>
-      ) : ( 
+      ) : (
         <>
           <Routes>
             <Route path="/" element={<HomePage />} />

@@ -1,18 +1,31 @@
 import React from "react";
 import deploy from "../images/deploy.png";
+import ext from "../images/ext.jpg";
 import useReducer from "../images/useReducer.png";
 
 const Blog = () => {
   const blogs = [
     {
       id: 1,
+      src: ext,
+      about: [
+        "Elevate Your Dev Game: 10 Must-Have Chrome and VS Code Extensions",
+        <br />,
+        <br />,
+        <br />,
+      ],
+      date: "Oct 4, 2022",
+      url: "https://pscon.hashnode.dev/elevate-your-dev-game-10-must-have-chrome-and-vs-code-extensions",
+    },
+    {
+      id: 2,
       src: deploy,
       about: ["Hosting React App On Firebase", <br />, <br />, <br />],
       date: "Oct 4, 2022",
       url: "https://pscon.hashnode.dev/hosting-react-app-on-firebase",
     },
     {
-      id: 2,
+      id: 3,
       src: useReducer,
       about: [
         "Implementing Counter App With useReducer: A Retrospective Technical Review.",
@@ -68,6 +81,17 @@ const Blog = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div className="flex items-center justify-center">
+          <a
+            href="https://pscon.hashnode.dev/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="w-full shadow-md shadow-gray-400 rounded-lg px-6 py-3 m-6 duration-200 hover:scale-105  ">
+              View All Blogs
+            </button>
+          </a>
         </div>
       </div>
     </div>

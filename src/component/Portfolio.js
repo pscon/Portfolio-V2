@@ -21,20 +21,9 @@ const Portfolio = () => {
       url: "https://scholarship-iq.com",
       github: "#",
     },
+
     {
       id: 2,
-      src: careF,
-      about: [
-        "Seamlessly locate the closest hospital to your location and effortlessly schedule appointments. Uncover your ideal healthcare solution: Locate the perfect hospital that meets your needs, anytime and anywhere!",
-        <br />,
-        "Developed using the latest technologies such as: Next.js, TypeScript, Firebase and Tailwind CSS",
-      ],
-      projectName: "Pscon Care Finder",
-      url: "https://pscon-care-finder.vercel.app/",
-      github: "https://github.com/pscon/Pscon-CareFinder",
-    },
-    {
-      id: 3,
       src: movix,
       about: [
         "Pscon-Movix is a personalized movie and TV show recommendation web application that provides users with detailed information, thrilling trailers, and insightful reviews.  ",
@@ -44,6 +33,18 @@ const Portfolio = () => {
       projectName: "Pscon-Movix",
       url: "https://pscon-movie-app.vercel.app/",
       github: "https://github.com/pscon/Pscon-Movie-App",
+    },
+    {
+      id: 3,
+      src: careF,
+      about: [
+        "Seamlessly locate the closest hospital to your location and effortlessly schedule appointments. Uncover your ideal healthcare solution: Locate the perfect hospital that meets your needs, anytime and anywhere!",
+        <br />,
+        "Developed using the latest technologies such as: Next.js, TypeScript, Firebase and Tailwind CSS",
+      ],
+      projectName: "Pscon Care Finder",
+      url: "https://pscon-care-finder.vercel.app/",
+      github: "https://github.com/pscon/Pscon-CareFinder",
     },
     {
       id: 4,
