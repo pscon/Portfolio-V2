@@ -13,7 +13,7 @@ function Navbar() {
     { id: 6, link: "contact" },
   ];
   return (
-    <div className="flex justify-between items-center w-full h-20 text-white bg-black px-4 fixed ">
+    <div className="flex justify-between items-center w-full h-20 text-white bg-black px-4 fixed z-10">
       <div>
         <Link to="/">
           <h1 className="font-signature text-4xl ml-2 cursor-pointer">
