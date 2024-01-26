@@ -1,6 +1,5 @@
 import React from "react";
 import realestate from "../images/bami.jpeg";
-import dashboard from "../images/dashboard.jpeg";
 import evogym from "../images/evogym.png";
 import careF from "../images/careF.png";
 import scholarship from "../images/scholarship.PNG";
