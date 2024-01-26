@@ -6,11 +6,25 @@ import careF from "../images/careF.png";
 import scholarship from "../images/scholarship.PNG";
 import { Link } from "react-router-dom";
 import movix from "../images/movix.png";
+import Konnectin from "../images/konnectin.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: Konnectin,
+      about: [
+        "Konectin is a platform dedicated to helping individuals land their dream jobs by connecting them with recruiters who value their experience. As a passionate contributor, I played a pivotal role in the development of Konectin as a volunteer.",
+        <br />,
+        "Developed with tools such as: React.js, TypeScript, Redux Toolkit, and other cutting-edge tools.",
+      ],
+
+      projectName: "Konectin Inc",
+      url: "https://konectin.org/",
+      github: "#",
+    },
+    {
+      id: 6,
       src: scholarship,
       about: [
         "ScholarshipIQ is a web app that connects African students with admission and scholarship opportunities, making it a powerful and efficient tool for promoting equitable access to educational opportunities.",
@@ -70,15 +84,15 @@ const Portfolio = () => {
       url: "https://bamiconsultant.netlify.app/",
       github: "https://github.com/pscon/Bami-Real-Estate",
     },
-    {
-      id: 6,
-      src: dashboard,
-      about:
-        "The Dashboard is a visual display of all of your data. The dashboard include charts or graphs to visualize the numbers.",
-      projectName: "Dashboard",
-      url: "https://cute-bonbon-7ba896.netlify.app/",
-      github: "https://github.com/pscon/Admin-Dashboard",
-    },
+    // {
+    //   id: 6,
+    //   src: dashboard,
+    //   about:
+    //     "The Dashboard is a visual display of all of your data. The dashboard include charts or graphs to visualize the numbers.",
+    //   projectName: "Dashboard",
+    //   url: "https://cute-bonbon-7ba896.netlify.app/",
+    //   github: "https://github.com/pscon/Admin-Dashboard",
+    // },
   ];
 
   return (

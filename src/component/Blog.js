@@ -1,12 +1,25 @@
 import React from "react";
 import deploy from "../images/deploy.png";
 import ext from "../images/ext.jpg";
+import ending from "../images/ending2023.png";
 import useReducer from "../images/useReducer.png";
 
 const Blog = () => {
   const blogs = [
     {
       id: 1,
+      src: ending,
+      about: [
+        "Reflecting on 2023: A Year of Learning, Growth, and Triumph",
+        <br />,
+        <br />,
+        <br />,
+      ],
+      date: "Jan 1, 2024",
+      url: "https://pscon.hashnode.dev/reflecting-on-2023-a-year-of-learning-growth-and-triumphs",
+    },
+    {
+      id: 2,
       src: ext,
       about: [
         "Elevate Your Dev Game: 10 Must-Have Chrome and VS Code Extensions",
@@ -14,18 +27,18 @@ const Blog = () => {
         <br />,
         <br />,
       ],
-      date: "Oct 4, 2022",
+      date: "Sep 21, 2023",
       url: "https://pscon.hashnode.dev/elevate-your-dev-game-10-must-have-chrome-and-vs-code-extensions",
     },
     {
-      id: 2,
+      id: 3,
       src: deploy,
       about: ["Hosting React App On Firebase", <br />, <br />, <br />],
       date: "Oct 4, 2022",
       url: "https://pscon.hashnode.dev/hosting-react-app-on-firebase",
     },
     {
-      id: 3,
+      id: 4,
       src: useReducer,
       about: [
         "Implementing Counter App With useReducer: A Retrospective Technical Review.",
