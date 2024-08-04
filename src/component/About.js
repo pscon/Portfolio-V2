@@ -12,7 +12,7 @@ const About = () => {
             About
           </p>
         </div>
-        <p className=" text-xl mt-12">
+        <p className=" text-xl mt-8">
           Hi, I am Ekunola Paul, a{" "}
           <span>
             <a
@@ -42,8 +42,8 @@ const About = () => {
         </p>
         <br />
         <p className="text-xl">
-          Skilled in: React.js, Javascript, TypeScript, React-Native, Redux,
-          Redux Toolkit. I am also a strong team player with excellent
+          Skilled in: React.js, Next.js, JavaScript, TypeScript, React-Native,
+          Redux, Redux Toolkit. I am also a strong team player with excellent
           communication skills and a passion for learning new technologies.
         </p>
 
