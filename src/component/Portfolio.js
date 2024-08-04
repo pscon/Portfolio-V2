@@ -6,9 +6,38 @@ import scholarship from "../images/scholarship.PNG";
 import { Link } from "react-router-dom";
 import movix from "../images/movix.png";
 import Konnectin from "../images/konnectin.png";
+import gwebsite from "../images/gWebsite.svg";
+import gdashboard from "../images/dashboard.svg";
 
 const Portfolio = () => {
   const portfolios = [
+    {
+      id: 7,
+      src: gwebsite,
+      about: [
+        "GoNomad makes it easy to launch a US business, get paid, and stay compliant. Enjoy 24-hour formation, global banking and invoicing, tax filings, and dedicated support.",
+        <br />,
+        <br />,
+        " Developed with tools such as React.js, Tailwind CSS, and other cutting-edge tools.",
+      ],
+
+      projectName: "GoNomad",
+      url: "https://gonomadhq.com/",
+      github: "#",
+    },
+    {
+      id: 8,
+      src: gdashboard,
+      about: [
+        "The GoNomad web app simplifies the process of starting and managing a US, UK and CANADA business. It features a user-friendly interface for global banking, invoicing, tax filings, and provides dedicated support. The web app ensures compliance and efficiency with 24-hour formation and other services.",
+        <br />,
+        "Developed using JavaScript, React.js, Redux Toolkit, and Python.",
+      ],
+
+      projectName: "GoNomad Web App",
+      url: "https://beta-app.gonomadhq.com/",
+      github: "#",
+    },
     {
       id: 1,
       src: Konnectin,
