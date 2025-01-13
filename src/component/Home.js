@@ -50,7 +50,7 @@ const Home = () => {
               </button>
             </Link>
             <a
-              href="https://www.canva.com/design/DAE15ID-Aao/JzZb4QR4UsIIhLpUzlbokw/view?utm_content=DAE15ID-Aao&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+              href="https://www.canva.com/design/DAGcD2klnbg/uvoDhdHsij4PxU2ABS0uuQ/view?utm_content=DAGcD2klnbg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h46def46678"
               target="_blank"
               rel="noreferrer"
             >
