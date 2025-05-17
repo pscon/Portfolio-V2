@@ -1,5 +1,4 @@
 import React from "react";
-
 import contactus from "../images/contact.png";
 import { FaGithub, FaTwitter, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
@@ -9,7 +8,7 @@ const Contact = () => {
       name="contact"
       className="bg-gradient-to-b from-black to-gray-800 w-full h-full p-4 text-white"
     >
-      <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
+      <div className="max-w-screen-xl mx-auto px-3 md:px-8 py-16 text-center md:text-left">
         <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold h-full">
           contact
         </h2>

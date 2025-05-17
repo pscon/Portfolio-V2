@@ -8,6 +8,7 @@ import Navbar from "../component/Navbar";
 import Portfolio from "../component/Portfolio";
 import Skills from "../component/Skills";
 import SocialLinks from "../component/SocialLinks";
+import PublicEngagement from "../component/PublicEngagement";
 
 const HomePage = () => {
   return (
@@ -19,6 +20,7 @@ const HomePage = () => {
       <Portfolio />
       <Blog />
       <Skills />
+      <PublicEngagement />
       <Contact />
       <Footer />
     </div>
