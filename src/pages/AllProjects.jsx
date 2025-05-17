@@ -12,9 +12,67 @@ import careF from "../images/careF.png";
 import RouterNav from "../component/RouterNav";
 import Footer from "../component/Footer";
 import movix from "../images/movix.png";
+import Konnectin from "../images/konnectin.png";
+import gwebsite from "../images/gWebsite.svg";
+import mobihealth from "../images/mobihealth.png";
+import gdashboard from "../images/dashboard.svg";
 
 const AllProjects = () => {
   const portfolios = [
+    {
+      id: 12,
+      src: mobihealth,
+      about: [
+        "Mobihealth connects patients with top doctors globally, offering 24/7 video consultations, in-app chat, digital prescriptions, and medicine ordering, all in one secure, easy-to-use platform.",
+        <br />,
+        <br />,
+        "Developed using Next.js, TypeScript, WebSocket, Agora, Redux",
+      ],
+
+      projectName: "Mobihealth Telemedicine App",
+      url: "https://mobihealthinternational.com",
+      github: "#",
+    },
+    {
+      id: 13,
+      src: gwebsite,
+      about: [
+        "GoNomad makes it easy to launch a US business, get paid, and stay compliant. Enjoy 24-hour formation, global banking and invoicing, tax filings, and dedicated support.",
+        <br />,
+        <br />,
+        " Developed with tools such as React.js, Tailwind CSS, and other cutting-edge tools.",
+      ],
+
+      projectName: "GoNomad",
+      url: "https://gonomadhq.com/",
+      github: "#",
+    },
+    {
+      id: 14,
+      src: gdashboard,
+      about: [
+        "The GoNomad web app simplifies the process of starting and managing a US, UK and CANADA business. It features a user-friendly interface for global banking, invoicing, tax filings, and provides dedicated support. The web app ensures compliance and efficiency with 24-hour formation and other services.",
+        <br />,
+        "Developed using JavaScript, React.js, Redux Toolkit, and Python.",
+      ],
+
+      projectName: "GoNomad Web App",
+      url: "https://start.gonomadhq.com/",
+      github: "#",
+    },
+    {
+      id: 15,
+      src: Konnectin,
+      about: [
+        "Konectin is a platform dedicated to helping individuals land their dream jobs by connecting them with recruiters who value their experience. As a passionate contributor, I played a pivotal role in the development of Konectin as a volunteer.",
+        <br />,
+        "Developed with tools such as: React.js, TypeScript, Redux Toolkit, and other cutting-edge tools.",
+      ],
+
+      projectName: "Konectin Inc",
+      url: "https://konectin.org/",
+      github: "#",
+    },
     {
       id: 1,
       src: scholarship,

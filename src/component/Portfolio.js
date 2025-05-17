@@ -1,5 +1,4 @@
 import React from "react";
-import realestate from "../images/bami.jpeg";
 import evogym from "../images/evogym.png";
 import careF from "../images/careF.png";
 import scholarship from "../images/scholarship.PNG";
@@ -7,10 +6,25 @@ import { Link } from "react-router-dom";
 import movix from "../images/movix.png";
 import Konnectin from "../images/konnectin.png";
 import gwebsite from "../images/gWebsite.svg";
+import mobihealth from "../images/mobihealth.png";
 import gdashboard from "../images/dashboard.svg";
 
 const Portfolio = () => {
   const portfolios = [
+    {
+      id: 9,
+      src: mobihealth,
+      about: [
+        "Mobihealth connects patients with top doctors globally, offering 24/7 video consultations, in-app chat, digital prescriptions, and medicine ordering, all in one secure, easy-to-use platform.",
+        <br />,
+        <br />,
+        "Developed using Next.js, TypeScript, WebSocket, Agora, Redux",
+      ],
+
+      projectName: "Mobihealth Telemedicine App",
+      url: "https://mobihealthinternational.com",
+      github: "#",
+    },
     {
       id: 7,
       src: gwebsite,
@@ -35,7 +49,7 @@ const Portfolio = () => {
       ],
 
       projectName: "GoNomad Web App",
-      url: "https://beta-app.gonomadhq.com/",
+      url: "https://start.gonomadhq.com/",
       github: "#",
     },
     {
@@ -100,27 +114,6 @@ const Portfolio = () => {
       url: "https://gymevo.netlify.app",
       github: "https://github.com/pscon/gym-app-typescript",
     },
-    {
-      id: 5,
-      src: realestate,
-      about: [
-        "'Bami Consultant' is primarily designed to provide clients with a comprehensive understanding of the company's real estate services and its core values.",
-        <br />,
-        "Development with tools such as: HTML, CSS, Javascript.",
-      ],
-      projectName: "Bami Estate",
-      url: "https://bamiconsultant.netlify.app/",
-      github: "https://github.com/pscon/Bami-Real-Estate",
-    },
-    // {
-    //   id: 6,
-    //   src: dashboard,
-    //   about:
-    //     "The Dashboard is a visual display of all of your data. The dashboard include charts or graphs to visualize the numbers.",
-    //   projectName: "Dashboard",
-    //   url: "https://cute-bonbon-7ba896.netlify.app/",
-    //   github: "https://github.com/pscon/Admin-Dashboard",
-    // },
   ];
 
   return (

@@ -42,9 +42,10 @@ const About = () => {
         </p>
         <br />
         <p className="text-xl">
-          Skilled in: React.js, Next.js, JavaScript, TypeScript, React-Native,
-          Redux, Redux Toolkit. I am also a strong team player with excellent
-          communication skills and a passion for learning new technologies.
+          Skilled in: React.js, Next.js, TypeScript, JavaScript, Node.js,
+          React-Native, Redux, Redux Toolkit. I am also a strong team player
+          with excellent communication skills and a passion for learning new
+          technologies.
         </p>
 
         <br />

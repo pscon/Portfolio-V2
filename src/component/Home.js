@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileImg from "../images/profileImg.jpeg";
+import ProfileImg from "../images/Paul.JPG";
 import { HiOutlineArrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 import { Typewriter } from "react-simple-typewriter";
@@ -66,8 +66,8 @@ const Home = () => {
         <div>
           <img
             src={ProfileImg}
-            alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            alt="Ekunola Paul"
+            className="rounded-2xl mx-auto w-2/3 md:w-[800px] md:h-[400px] object-contain"
           />
         </div>
       </div>
