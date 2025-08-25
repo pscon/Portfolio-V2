@@ -1,13 +1,13 @@
 import React from "react";
-import MovieImg from "../images/movie.jpeg";
-import learning from "../images/learning.jpeg";
-import googleClone from "../images/googleClone.jpeg";
-import realestate from "../images/bami.jpeg";
-import dashboard from "../images/dashboard.jpeg";
-import evogym from "../images/evogym.png";
-import foodPalace from "../images/foodpalace.jpeg";
+// import MovieImg from "../images/movie.jpeg";
+// import learning from "../images/learning.jpeg";
+// import googleClone from "../images/googleClone.jpeg";
+// import realestate from "../images/bami.jpeg";
+// import dashboard from "../images/dashboard.jpeg";
+// import evogym from "../images/evogym.png";
+import mysenses from "../images/mysenses.webp";
 import scholarship from "../images/scholarship.PNG";
-import countrr from "../images/countrr.PNG";
+import bhrave from "../images/bhrave.webp";
 import careF from "../images/careF.png";
 import RouterNav from "../component/RouterNav";
 import Footer from "../component/Footer";
@@ -16,11 +16,41 @@ import Konnectin from "../images/konnectin.png";
 import gwebsite from "../images/gWebsite.svg";
 import mobihealth from "../images/mobihealth.png";
 import gdashboard from "../images/dashboard.svg";
+import goflex from "../images/goflex.png";
+
 
 const AllProjects = () => {
   const portfolios = [
+  {
+  id: 1,
+  src: goflex,
+  about: [
+    "GoFlex helps professionals collect global payments without needing a company setup.",
+    <br />,
+    "It supports multiple methods — cards, wallets (Apple Pay, Google Pay), CashApp, instalments, and bank debit.",
+    <br />,
+    "Perfect for freelancers, creators, coaches, and agencies."
+  ],
+  projectName: "GoFlex",
+  url: "https://trygoflex.com",
+  github: "",
+},
+
     {
-      id: 12,
+      id: 2,
+      src: bhrave,
+      about: [
+        "BHrave is an All-in-One RMM and Cybersecurity platform designed for Endpoint Protection, Monitoring, and Control.",
+        <br />,
+        "It provides lightweight, automated, and enterprise-grade tools that empower IT teams and businesses to secure and manage devices seamlessly from anywhere.",
+      ],
+      projectName: "BHrave",
+      url: "https://bhrave.com/",
+      github: "",
+    },
+
+    {
+      id: 3,
       src: mobihealth,
       about: [
         "Mobihealth connects patients with top doctors globally, offering 24/7 video consultations, in-app chat, digital prescriptions, and medicine ordering, all in one secure, easy-to-use platform.",
@@ -34,7 +64,7 @@ const AllProjects = () => {
       github: "#",
     },
     {
-      id: 13,
+      id: 4,
       src: gwebsite,
       about: [
         "GoNomad makes it easy to launch a US business, get paid, and stay compliant. Enjoy 24-hour formation, global banking and invoicing, tax filings, and dedicated support.",
@@ -48,7 +78,7 @@ const AllProjects = () => {
       github: "#",
     },
     {
-      id: 14,
+      id: 5,
       src: gdashboard,
       about: [
         "The GoNomad web app simplifies the process of starting and managing a US, UK and CANADA business. It features a user-friendly interface for global banking, invoicing, tax filings, and provides dedicated support. The web app ensures compliance and efficiency with 24-hour formation and other services.",
@@ -61,7 +91,19 @@ const AllProjects = () => {
       github: "#",
     },
     {
-      id: 15,
+      id: 6,
+      src: mysenses,
+      about: [
+        "MySenses is an AI-powered workforce analytics platform that ensures every team member is visible, valued, and accountable.",
+        <br />,
+        "It provides actionable insights into team behavior, performance, and potential — helping organizations unlock productivity while respecting privacy.",
+      ],
+      projectName: "MySenses",
+      url: "https://mysenses.ai",
+      github: "",
+    },
+    {
+      id: 7,
       src: Konnectin,
       about: [
         "Konectin is a platform dedicated to helping individuals land their dream jobs by connecting them with recruiters who value their experience. As a passionate contributor, I played a pivotal role in the development of Konectin as a volunteer.",
@@ -74,19 +116,19 @@ const AllProjects = () => {
       github: "#",
     },
     {
-      id: 1,
+      id: 8,
       src: scholarship,
       about: [
-        "ScholarshipIQ is a web app that connects African students with admission and scholarship opportunities, making it a powerful and efficient tool for promoting equitable access to educational opportunities.",
+        "SkuleIQ is an AI-powered learning tutor that helps students master their subjects through interactive, step-by-step explanations and personalized guidance for all their learning needs.",
         <br />,
-        "Development with tools such as: React.js, PHP/Laravel backend, and MySQL database.",
+        "",
       ],
-      projectName: "ScholarshipIQ",
-      url: "https://scholarship-iq.com",
+      projectName: "SkuleIQ",
+      url: "https://app.skuleiq.com",
       github: "#",
     },
     {
-      id: 2,
+      id: 9,
       src: careF,
       about: [
         "Seamlessly locate the closest hospital to your location and effortlessly schedule appointments. Uncover your ideal healthcare solution: Locate the perfect hospital that meets your needs, anytime and anywhere!",
@@ -99,7 +141,7 @@ const AllProjects = () => {
     },
 
     {
-      id: 3,
+      id: 10,
       src: movix,
       about: [
         "Pscon-Movix is a personalized movie and TV show recommendation web application that provides users with detailed information, thrilling trailers, and insightful reviews.  ",
@@ -110,86 +152,86 @@ const AllProjects = () => {
       url: "https://pscon-movie-app.vercel.app/",
       github: "https://github.com/pscon/Pscon-Movie-App",
     },
-    {
-      id: 4,
-      src: evogym,
-      about: [
-        "Evogym presents a state-of-the-art web application that delivers unrivaled training fitness classes. Experience the transformative power of our platform as you work towards achieving the body shape of your dreams. ",
-        <br />,
-        "Developed using the latest technologies such as: React.js, TypeScript, Tailwind CSS.",
-      ],
-      projectName: "Evo Gym",
-      url: "https://gymevo.netlify.app",
-      github: "https://github.com/pscon/gym-app-typescript",
-    },
-    {
-      id: 5,
-      src: realestate,
-      about: [
-        "'Bami Consultant' is primarily designed to provide clients with a comprehensive understanding of the company's real estate services and its core values.",
-        <br />,
-        "Development with tools such as: HTML, CSS, Javascript.",
-      ],
-      projectName: "Bami Estate",
-      url: "https://bamiconsultant.netlify.app/",
-      github: "https://github.com/pscon/Bami-Real-Estate",
-    },
-    {
-      id: 6,
-      src: countrr,
-      about:
-        "The 'Counter App' is a versatile application with a custom hook that includes increment, decrement, reset, and setValue functions. It uses the useReducer hook and offers an interactive UI, a page to test error boundary and SEO, and a 404 error page.",
-      projectName: "Counter App",
-      url: "https://ekunolapaul-altschool.netlify.app",
-      github: "https://github.com/pscon/AltSchool-Exam",
-    },
+    // {
+    //   id: 4,
+    //   src: evogym,
+    //   about: [
+    //     "Evogym presents a state-of-the-art web application that delivers unrivaled training fitness classes. Experience the transformative power of our platform as you work towards achieving the body shape of your dreams. ",
+    //     <br />,
+    //     "Developed using the latest technologies such as: React.js, TypeScript, Tailwind CSS.",
+    //   ],
+    //   projectName: "Evo Gym",
+    //   url: "https://gymevo.netlify.app",
+    //   github: "https://github.com/pscon/gym-app-typescript",
+    // },
+    // {
+    //   id: 5,
+    //   src: realestate,
+    //   about: [
+    //     "'Bami Consultant' is primarily designed to provide clients with a comprehensive understanding of the company's real estate services and its core values.",
+    //     <br />,
+    //     "Development with tools such as: HTML, CSS, Javascript.",
+    //   ],
+    //   projectName: "Bami Estate",
+    //   url: "https://bamiconsultant.netlify.app/",
+    //   github: "https://github.com/pscon/Bami-Real-Estate",
+    // },
+    // {
+    //   id: 6,
+    //   src: countrr,
+    //   about:
+    //     "The 'Counter App' is a versatile application with a custom hook that includes increment, decrement, reset, and setValue functions. It uses the useReducer hook and offers an interactive UI, a page to test error boundary and SEO, and a 404 error page.",
+    //   projectName: "Counter App",
+    //   url: "https://ekunolapaul-altschool.netlify.app",
+    //   github: "https://github.com/pscon/AltSchool-Exam",
+    // },
 
-    {
-      id: 7,
-      src: MovieImg,
-      about:
-        "A web Application similar to Netflix, where you can search for movies, view picture, year, and name of the movie.",
-      projectName: "Movie Land",
-      url: "https://vermillion-fairy-01c967.netlify.app/",
-      github: "https://github.com/pscon/Movie-App",
-    },
-    {
-      id: 8,
-      src: learning,
-      about:
-        "Design Code is a web Application that allows users you to buy and watch tutorial videos on Frontend Development with tools such as: React.js, Styled Components, Firebase e.t.c",
-      projectName: "Design Code ",
-      url: "https://react-learning-application.netlify.app/",
-      github: "https://github.com/pscon/Gatsby-React-LearningApp",
-    },
-    {
-      id: 9,
-      src: foodPalace,
-      about:
-        "Food Palace is a Resturant Web application that shows the various food menu available for Order",
-      projectName: "Food Palace",
-      url: "https://food-palace-sh.netlify.app/",
-      github: "https://github.com/pscon/food-palace-resturant",
-    },
+    // {
+    //   id: 7,
+    //   src: MovieImg,
+    //   about:
+    //     "A web Application similar to Netflix, where you can search for movies, view picture, year, and name of the movie.",
+    //   projectName: "Movie Land",
+    //   url: "https://vermillion-fairy-01c967.netlify.app/",
+    //   github: "https://github.com/pscon/Movie-App",
+    // },
+    // {
+    //   id: 8,
+    //   src: learning,
+    //   about:
+    //     "Design Code is a web Application that allows users you to buy and watch tutorial videos on Frontend Development with tools such as: React.js, Styled Components, Firebase e.t.c",
+    //   projectName: "Design Code ",
+    //   url: "https://react-learning-application.netlify.app/",
+    //   github: "https://github.com/pscon/Gatsby-React-LearningApp",
+    // },
+    // {
+    //   id: 9,
+    //   src: foodPalace,
+    //   about:
+    //     "Food Palace is a Resturant Web application that shows the various food menu available for Order",
+    //   projectName: "Food Palace",
+    //   url: "https://food-palace-sh.netlify.app/",
+    //   github: "https://github.com/pscon/food-palace-resturant",
+    // },
 
-    {
-      id: 10,
-      src: dashboard,
-      about:
-        "The Dashboard is a visual display of all of your data. The dashboard include charts or graphs to visualize the numbers.",
-      projectName: "Dashboard",
-      url: "https://cute-bonbon-7ba896.netlify.app/",
-      github: "https://github.com/pscon/Admin-Dashboard",
-    },
-    {
-      id: 11,
-      src: googleClone,
-      about:
-        "A web Application similar to google, where you can search and surf the internet, view pictures, videos and news about your search topic...",
-      projectName: "Google Clone",
-      url: "https://fastidious-belekoy-d1d97f.netlify.app/search",
-      github: "https://github.com/pscon/Google-Clone",
-    },
+    // {
+    //   id: 10,
+    //   src: dashboard,
+    //   about:
+    //     "The Dashboard is a visual display of all of your data. The dashboard include charts or graphs to visualize the numbers.",
+    //   projectName: "Dashboard",
+    //   url: "https://cute-bonbon-7ba896.netlify.app/",
+    //   github: "https://github.com/pscon/Admin-Dashboard",
+    // },
+    // {
+    //   id: 11,
+    //   src: googleClone,
+    //   about:
+    //     "A web Application similar to google, where you can search and surf the internet, view pictures, videos and news about your search topic...",
+    //   projectName: "Google Clone",
+    //   url: "https://fastidious-belekoy-d1d97f.netlify.app/search",
+    //   github: "https://github.com/pscon/Google-Clone",
+    // },
   ];
 
   return (
