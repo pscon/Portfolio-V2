@@ -1,5 +1,5 @@
 import React from "react";
-import evogym from "../images/evogym.png";
+import goflex from "../images/goflex.png";
 import careF from "../images/careF.png";
 import scholarship from "../images/scholarship.PNG";
 import { Link } from "react-router-dom";
@@ -8,11 +8,26 @@ import Konnectin from "../images/konnectin.png";
 import gwebsite from "../images/gWebsite.svg";
 import mobihealth from "../images/mobihealth.png";
 import gdashboard from "../images/dashboard.svg";
+import bhrave from "../images/bhrave.webp";
 
 const Portfolio = () => {
   const portfolios = [
     {
-      id: 9,
+      id: 1,
+      src: goflex,
+      about: [
+        "GoFlex enables professionals to easily collect global payments without the need to set up a company.",
+        <br />,
+        "One platform - multiple payment methods for your clients to pay; cards, digital wallets (Apple Pay, Google Pay, Amazon Pay), CashApp, instalments (get cash upfront), and bank debit.",
+        <br />,
+        "GoFlex is the ultimate payment gateway for solopreneurs, freelancers, creators, coaches, consultants, and agencies."
+      ],
+      projectName: "GoFlex",
+      url: "https://trygoflex.com",
+      github: "",
+    },
+    {
+      id: 2,
       src: mobihealth,
       about: [
         "Mobihealth connects patients with top doctors globally, offering 24/7 video consultations, in-app chat, digital prescriptions, and medicine ordering, all in one secure, easy-to-use platform.",
@@ -26,7 +41,7 @@ const Portfolio = () => {
       github: "#",
     },
     {
-      id: 7,
+      id: 3,
       src: gwebsite,
       about: [
         "GoNomad makes it easy to launch a US business, get paid, and stay compliant. Enjoy 24-hour formation, global banking and invoicing, tax filings, and dedicated support.",
@@ -40,7 +55,7 @@ const Portfolio = () => {
       github: "#",
     },
     {
-      id: 8,
+      id: 4,
       src: gdashboard,
       about: [
         "The GoNomad web app simplifies the process of starting and managing a US, UK and CANADA business. It features a user-friendly interface for global banking, invoicing, tax filings, and provides dedicated support. The web app ensures compliance and efficiency with 24-hour formation and other services.",
@@ -53,7 +68,19 @@ const Portfolio = () => {
       github: "#",
     },
     {
-      id: 1,
+      id: 8,
+      src: bhrave,
+      about: [
+        "BHrave is an All-in-One RMM and Cybersecurity platform designed for Endpoint Protection, Monitoring, and Control.",
+        <br />,
+        "It provides lightweight, automated, and enterprise-grade tools that empower IT teams and businesses to secure and manage devices seamlessly from anywhere.",
+      ],
+      projectName: "BHrave",
+      url: "https://bhrave.com/",
+      github: "",
+    },
+    {
+      id: 5,
       src: Konnectin,
       about: [
         "Konectin is a platform dedicated to helping individuals land their dream jobs by connecting them with recruiters who value their experience. As a passionate contributor, I played a pivotal role in the development of Konectin as a volunteer.",
@@ -69,17 +96,16 @@ const Portfolio = () => {
       id: 6,
       src: scholarship,
       about: [
-        "ScholarshipIQ is a web app that connects African students with admission and scholarship opportunities, making it a powerful and efficient tool for promoting equitable access to educational opportunities.",
+        "SkuleIQ is an AI-powered learning tutor that helps students master their subjects through interactive, step-by-step explanations and personalized guidance for all their learning needs.",
         <br />,
-        "Developed with tools such as: React.js, PHP/Laravel backend and MySQL database.",
+        "",
       ],
-      projectName: "ScholarshipIQ",
-      url: "https://scholarship-iq.com",
+      projectName: "SkuleIQ",
+      url: "https://app.skuleiq.com",
       github: "#",
     },
-
     {
-      id: 2,
+      id: 7,
       src: movix,
       about: [
         "Pscon-Movix is a personalized movie and TV show recommendation web application that provides users with detailed information, thrilling trailers, and insightful reviews.  ",
@@ -91,7 +117,7 @@ const Portfolio = () => {
       github: "https://github.com/pscon/Pscon-Movie-App",
     },
     {
-      id: 3,
+      id: 8,
       src: careF,
       about: [
         "Seamlessly locate the closest hospital to your location and effortlessly schedule appointments. Uncover your ideal healthcare solution: Locate the perfect hospital that meets your needs, anytime and anywhere!",
@@ -102,18 +128,7 @@ const Portfolio = () => {
       url: "https://pscon-care-finder.vercel.app/",
       github: "https://github.com/pscon/Pscon-CareFinder",
     },
-    {
-      id: 4,
-      src: evogym,
-      about: [
-        "Evogym presents a state-of-the-art web application that delivers unrivaled training fitness classes. Experience the transformation power of our platform as you work towards achieving the body shape of your dreams. ",
-        <br />,
-        "Developed using the latest technologies such as: React.js, TypeScript, Tailwind CSS.",
-      ],
-      projectName: "Evo Gym",
-      url: "https://gymevo.netlify.app",
-      github: "https://github.com/pscon/gym-app-typescript",
-    },
+
   ];
 
   return (
