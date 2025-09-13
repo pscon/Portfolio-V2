@@ -3,33 +3,70 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+
+    <!-- Primary Meta Tags -->
+    <title>Ekunola Paul | Frontend Engineer</title>
+    <meta name="title" content="Ekunola Paul | Frontend Engineer" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Portfolio of Ekunola Paul, a Frontend Engineer specializing in React.js, Next.js, TypeScript, and modern web development. Explore projects, skills, and experience."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    <meta
+      name="keywords"
+      content="Ekunola Paul, Frontend Engineer, React.js, Next.js, TypeScript, JavaScript, Web Developer, Software Engineer, Portfolio"
+    />
+    <meta name="author" content="Ekunola Paul" />
+
+    <!-- Open Graph (General Preview for LinkedIn etc.) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ekunolapaul.vercel.app" />
+    <meta property="og:title" content="Ekunola Paul | Frontend Engineer" />
+    <meta
+      property="og:description"
+      content="Frontend Engineer skilled in React.js, Next.js, TypeScript, and creating modern web applications. View portfolio and projects."
+    />
+    <meta property="og:image" content="%PUBLIC_URL%/favicon.ico" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://ekunolapaul.vercel.app" />
+    <meta property="twitter:title" content="Ekunola Paul | Frontend Engineer" />
+    <meta
+      property="twitter:description"
+      content="Portfolio of Ekunola Paul, showcasing React.js, Next.js, TypeScript, and frontend engineering expertise."
+    />
+    <meta property="twitter:image" content="%PUBLIC_URL%/favicon.ico" />
+
+    <!-- Manifest -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  
-    <title>Ekunola Paul | Frontend Developer</title>
+
+    <!-- Structured Data (JSON-LD for Portfolio/Person) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Ekunola Paul",
+        "url": "https://ekunolapaul.vercel.app",
+        "image": "https://ekunolapaul.vercel.app/favicon.ico",
+        "sameAs": [
+          "https://github.com/pscon",
+          "https://www.linkedin.com/in/ekunola-paul-42712b1aa",
+          "https://x.com/PSCON3"
+        ],
+        "jobTitle": "Frontend Engineer",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Freelance / Open to Work"
+        },
+        "knowsAbout": ["React.js", "Next.js", "TypeScript", "JavaScript", "Web Development"]
+      }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
