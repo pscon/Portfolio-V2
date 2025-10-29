@@ -73,5 +73,5 @@ _Caption: Projects section showcasing my work._
 Feel free to reach out to me for any inquiries or collaborations:
 
 - **Email**: ekunolapaul@gmail.com
-- **LinkedIn**: [https://www.linkedin.com/in/ekunola-paul-42712b1aa](https://www.linkedin.com/in/ekunola-paul-42712b1aa)
+- **LinkedIn**: [https://www.linkedin.com/in/paul-ekunola-42712b1aa/](https://www.linkedin.com/in/paul-ekunola-42712b1aa/)
 - **GitHub**: [https://github.com/pscon](https://github.com/pscon)
