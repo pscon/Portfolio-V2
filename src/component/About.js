@@ -13,39 +13,38 @@ const About = () => {
           </p>
         </div>
         <p className=" text-xl mt-8">
-          Hi, I am Ekunola Paul, a{" "}
+          Hi, I'm Paul Ekunola, a{" "}
           <span>
             <a
               href="https://github.com/pscon"
               target={"_blank"}
-              rel=" noreferrer"
+              rel="noreferrer"
               className="underline "
             >
-              Frontend Developer&nbsp;
+              Frontend Engineer&nbsp;
             </a>
           </span>
           and{" "}
           <a
             href="https://pscon.hashnode.dev/"
             target={"_blank"}
-            rel=" noreferrer"
+            rel="noreferrer"
             className="underline "
           >
             Technical Writer{" "}
           </a>{" "}
-          based in Lagos, Nigeria who enjoys building products that leverage the
-          internet. I am a highly resourceful and focused software engineer with
-          experience in building web and mobile applications. I excel and I'm
-          invested in every stage of the life cycle of software development,
-          including design implementation, coding, debugging, testing, and
-          maintenance.
+          based in Berlin, Germany. I enjoy building products that leverage the
+          internet and make a difference, including AI-driven solutions where they add value.
+          I'm a resourceful software engineer with experience building web and
+          mobile applications end to end, from design and implementation through
+          debugging, testing, and maintenance.
         </p>
         <br />
         <p className="text-xl">
           Skilled in: React.js, Next.js, TypeScript, JavaScript, Node.js,
-          React-Native, Redux, Redux Toolkit. I am also a strong team player
-          with excellent communication skills and a passion for learning new
-          technologies.
+          React Native, Redux, Redux Toolkit, and AI-driven solutions. I work
+          well in cross-functional teams and keep my stack current with new tools
+          and practices.
         </p>
 
         <br />

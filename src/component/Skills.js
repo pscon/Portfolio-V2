@@ -77,7 +77,7 @@ const Skills = () => {
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Skills
           </p>
-          <p className="py-6"> These are the technologies I have worked with</p>
+          <p className="py-6">These are the technologies and areas I work with, from frontend and full-stack development to AI-driven solutions.</p>
         </div>
 
         <div className="grid sm:grid-cols-2  text-center w-full md:grid-cols-3 gap-8 px-12 sm:px-0">
