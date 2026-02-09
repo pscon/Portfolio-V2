@@ -28,6 +28,7 @@ const Home = () => {
                 delaySpeed={1000}
                 words={[
                   " Software Engineer",
+                  " AI Innovation Specialist.",
                   " Frontend Developer.",
                   " Technical Writer.",
                   " Tech Enthusiast.",
@@ -37,7 +38,7 @@ const Home = () => {
           </h2>
 
           <p className="text-gray-400 py-4 maxw-md">
-            I'm a software engineer based in Lagos, Nigeria specializing in
+            I'm a software engineer and AI Innovation Specialist based in Berlin, Germany specializing in
             building amazing products and applications.
           </p>
           <div className="flex items-center justify-center gap-10">

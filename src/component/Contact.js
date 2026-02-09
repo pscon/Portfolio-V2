@@ -17,8 +17,7 @@ const Contact = () => {
           <div className="w-full md:w-1/2 h-full rounded-xl p-4">
             <img src={contactus} alt="man with laptop" className="rounded-xl" />
             <p className="pt-2 pb-8">
-              I am open to talk regarding freelancing or full-time
-              opportunities. Fell free to contact me using your preferred
+              I'm open to freelancing and full-time opportunities. Feel free to contact me using your preferred
               medium.
             </p>
 
@@ -51,7 +50,7 @@ const Contact = () => {
                 </div>
               </a>
               <a
-                href="https://www.github.com/pscon"
+                href="https://github.com/pscon"
                 target="_blank"
                 rel="noreferrer"
               >
