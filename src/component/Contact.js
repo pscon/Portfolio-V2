@@ -15,7 +15,7 @@ const Contact = () => {
 
         <div className="flex flex-col md:flex-row gap-8 shadow-xl shadow-gray-600 bg-gray mt-4">
           <div className="w-full md:w-1/2 h-full rounded-xl p-4">
-            <img src={contactus} alt="man with laptop" className="rounded-xl" />
+            <img src={contactus} alt="" className="rounded-xl" />
             <p className="pt-2 pb-8">
               I'm open to freelancing and full-time opportunities. Feel free to contact me using your preferred
               medium.
