@@ -23,7 +23,7 @@ const Contact = () => {
 
             <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
               <a
-                href="https://www.linkedin.com/in/paul-ekunola-42712b1aa/"
+                href="https://www.linkedin.com/in/paul-ekunola"
                 target="_blank"
                 rel="noreferrer"
               >
