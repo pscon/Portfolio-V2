@@ -11,7 +11,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/paul-ekunola-42712b1aa/",
+      href: "https://www.linkedin.com/in/paul-ekunola",
       style: "rounded-tr-md",
     },
     {
@@ -57,9 +57,8 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/Ekunola-Paul-Resume.pdf",
+      href: "https://www.canva.com/design/DAGx_oJO3fk/gm7d6FcqCAo9YSjMkIszgw/view?utm_content=DAGx_oJO3fk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9c1b03e82a",
       style: "rounded-br-md",
-      download: true,
     },
   ];
   return (

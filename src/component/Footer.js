@@ -9,7 +9,7 @@ const Footer = ({ theme }) => {
       <p className="text-2xl shadow-sm text-center hover:text-3xl">
         Designed by{" "}
         <a
-          href="https://www.linkedin.com/in/paul-ekunola-42712b1aa/"
+          href="https://www.linkedin.com/in/paul-ekunola"
           target="_blank"
           rel="noreferrer"
         >
