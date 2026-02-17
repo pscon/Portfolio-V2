@@ -10,7 +10,7 @@ function RouterNav() {
       <div>
         <Link to="/">
           <h1 className="font-signature text-4xl ml-2 cursor-pointer">
-            Ekunola Paul
+            Paul Ekunola
           </h1>
         </Link>
       </div>
