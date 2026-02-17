@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileImg from "../images/Paul.JPG";
+import ProfileImg from "../images/Paul.jpeg";
 import { HiOutlineArrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 import { Typewriter } from "react-simple-typewriter";
@@ -13,7 +13,7 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white">
-            Hi, my name is EKUNOLA PAUL
+            Hi, my name is PAUL EKUNOLA
           </h2>
 
           <h2 className="text-xl sm:text-4xl font-bold text-white">
@@ -67,8 +67,8 @@ const Home = () => {
         <div>
           <img
             src={ProfileImg}
-            alt="Ekunola Paul"
-            className="rounded-2xl mx-auto w-2/3 md:w-[800px] md:h-[400px] object-contain"
+            alt="Paul Ekunola"
+            className="rounded-4xl mx-auto w-2/3 md:w-[800px] md:h-[400px] object-contain"
           />
         </div>
       </div>
