@@ -38,7 +38,7 @@ const Home = () => {
           </h2>
 
           <p className="text-gray-400 py-4 maxw-md">
-            I'm a software engineer and AI Innovation Specialist based in Berlin, Germany specializing in
+            I'm a senior software engineer and AI Innovation Specialist based in Berlin, Germany specializing in
             building amazing products and applications.
           </p>
           <div className="flex items-center justify-center gap-10">
@@ -51,7 +51,7 @@ const Home = () => {
               </button>
             </Link>
             <a
-              href="https://www.canva.com/design/DAGx_oJO3fk/gm7d6FcqCAo9YSjMkIszgw/view?utm_content=DAGx_oJO3fk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9c1b03e82a"
+              href="https://canva.link/2oradnlxzivflaf"
               target="_blank"
               rel="noreferrer"
             >

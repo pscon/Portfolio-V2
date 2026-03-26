@@ -13,7 +13,7 @@ const About = () => {
           </p>
         </div>
         <p className=" text-xl mt-8">
-          Hi, I'm Paul Ekunola, a{" "}
+          Hi, I'm Paul Ekunola, a senior{" "}
           <span>
             <a
               href="https://github.com/pscon"
